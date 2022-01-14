@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo tmux session name?
+read sessName
+
+tmux-sessionizer $sessName
