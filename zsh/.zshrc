@@ -108,9 +108,12 @@ alias tmuxa="tmux attach"
 bindkey -s ^f "tmux-sessionizer\n"
 bindkey -s ^z "tmux-new-session\n"
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# ASDF business
+. $HOME/.asdf/asdf.sh
+# append completions to fpath
+fpath=(${ASDF_DIR}/completions $fpath)
+# initialise completions with ZSH's compinit
+autoload -Uz compinit && compinit
 
 export NPM_TOKEN='d6ce5625-acc0-4cbc-9df2-8669cf888160'
 
@@ -118,6 +121,7 @@ export ANDROID_SDK=$HOME/Library/Android/sdk
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$ANDROID_SDK/platform-tools:$PATH
 
+# TODO: Replace all the following after ADSF configuration is complete
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '$HOME/bin/google-cloud-sdk/path.zsh.inc' ]; then . '$HOME/bin/google-cloud-sdk/path.zsh.inc'; fi
 
