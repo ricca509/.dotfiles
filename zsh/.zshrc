@@ -104,7 +104,7 @@ export PATH=~/.me/bin:$PATH
 alias tss="tmux-sessionizer"
 alias tmuxa="tmux attach"
 
-# Where should I put you?
+# tmux bindings
 bindkey -s ^f "tmux-sessionizer\n"
 bindkey -s ^z "tmux-new-session\n"
 
@@ -115,19 +115,20 @@ fpath=(${ASDF_DIR}/completions $fpath)
 # initialise completions with ZSH's compinit
 autoload -Uz compinit && compinit
 
-export NPM_TOKEN='d6ce5625-acc0-4cbc-9df2-8669cf888160'
-
 export ANDROID_SDK=$HOME/Library/Android/sdk
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$ANDROID_SDK/platform-tools:$PATH
 
-# TODO: Replace all the following after ADSF configuration is complete
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '$HOME/bin/google-cloud-sdk/path.zsh.inc' ]; then . '$HOME/bin/google-cloud-sdk/path.zsh.inc'; fi
-
 # The next line enables shell command completion for gcloud.
-if [ -f '$HOME/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '$HOME/bin/google-cloud-sdk/completion.zsh.inc'; fi
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+# The next line updates PATH for the Google Cloud SDK.
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+
+# TODO: Replace the following after ADSF configuration is complete
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# Source secrets
+source $HOME/.zshrc-secrets
