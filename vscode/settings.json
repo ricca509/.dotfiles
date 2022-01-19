@@ -1,0 +1,74 @@
+{
+    "editor.tabSize": 2,
+    "editor.fontSize": 15,
+    "editor.fontFamily": "Menlo, Inconsolata",
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "GitHub Dark",
+    "files.autoSave": "onFocusChange",
+    "sync.gist": "f3fe72e3d356fa218497f88164f6b668",
+    "search.exclude": {
+        "./node_modules/.": true,
+        "**/node_modules": false
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "explorer.compactFolders": false,
+    "path-intellisense.showHiddenFiles": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "prettier.disableLanguages": [
+        "groovy"
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[terraform]": {
+        "editor.formatOnSave": true
+    },
+    "sync.autoUpload": true,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "debug.javascript.autoAttachFilter": "always",
+    "Notes.notesLocation": "/Users/riccardo.coppola/dev/vscode-notes",
+    "redhat.telemetry.enabled": false,
+    "todohighlight.exclude": [
+
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/_output/**",
+        "**/*.min.*",
+        "**/*.map",
+        "**/.next/**"
+    ],
+    "editor.largeFileOptimizations": false,
+    "editor.guides.bracketPairs": "active",
+    "editor.bracketPairColorization.enabled": true,
+    "git.confirmSync": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    }
+}

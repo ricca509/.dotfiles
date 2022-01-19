@@ -9,5 +9,11 @@
     ~/.zshrc: zsh/.zshrc
     ~/.asdfrc: asdf/.asdfrc
 
+    ~/Library/Application Support/Code/User:
+      if: '[ `uname` = Darwin ]'
+      glob: true
+      path: vscode/*.json
+      force: true
+
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
