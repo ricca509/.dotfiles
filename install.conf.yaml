@@ -6,13 +6,22 @@
 
 - link:
     ~/.tmux.conf: tmux/.tmux.conf    
-    ~/.zshrc: zsh/.zshrc
+    ~/.zshrc: 
+      path: zsh/.zshrc
+      force: true
     ~/.asdfrc: asdf/.asdfrc
 
+    # VSCode
     ~/Library/Application Support/Code/User:
       if: '[ `uname` = Darwin ]'
       glob: true
       path: vscode/*.json
+      force: true
+
+    # Kitty
+    ~/.config/kitty:
+      glob: true
+      path: kitty/*.conf
       force: true
 
 - shell:
