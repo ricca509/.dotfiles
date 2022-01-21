@@ -30,7 +30,8 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH=~/.dotfiles/bin:${PATH}
+# dotfiles bin 
+export PATH=$DOTFILES/bin:${PATH}
 
 # Source secrets
 if [[ -a $HOME/.zshrc-secretss ]]
