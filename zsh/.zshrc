@@ -38,13 +38,15 @@ for f in $DOTFILES/functions/*; do source $f; done
 # Personal aliases
 alias tss="tmux-sessionizer"
 alias tmuxa="tmux attach"
+alias tmuxk9="tmux kill-server"
+alias tmuxk="tmux kill-session"
 alias sourcezsh="source $HOME/.zshrc"
 # Nodejs
 alias npnuke='rm -rf node_modules && npm install'
 
 # Bindings
 bindkey -s ^f "tmux-sessionizer\n"
-bindkey -s ^z "tmux-new-session\n"
+bindkey -s ^s "tmux-new-session\n"
 
 # ASDF business
 . $HOME/.asdf/asdf.sh
@@ -64,3 +66,5 @@ export PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$ANDROID_SDK/platform-tools
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 # The next line updates PATH for the Google Cloud SDK.
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+
+echo -e "\e[0;34m Welcome back, Master \e[0m"
