@@ -1,10 +1,10 @@
-# If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:$PATH
-
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 # Dotfiles repo
 export DOTFILES="$HOME/.dotfiles"
+
+# PATH manipulation
+export PATH=$HOME/bin:$DOTFILES/bin:${PATH}
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
@@ -24,9 +24,6 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-# dotfiles bin 
-export PATH=$DOTFILES/bin:${PATH}
 
 # Source secrets
 if [[ -a $HOME/.zshrc-secrets ]]
