@@ -34,7 +34,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$DOTFILES/bin:${PATH}
 
 # Source secrets
-if [[ -a $HOME/.zshrc-secretss ]]
+if [[ -a $HOME/.zshrc-secrets ]]
 then
   source $HOME/.zshrc-secrets
 fi
@@ -67,23 +67,19 @@ bindkey -s ^z "tmux-new-session\n"
 
 # ASDF business
 . $HOME/.asdf/asdf.sh
+. ~/.asdf/plugins/java/set-java-home.zsh
 # append completions to fpath
 fpath=(${ASDF_DIR}/completions $fpath)
 # initialise completions with ZSH's compinit
 autoload -Uz compinit && compinit
 
+# Android setup
 export ANDROID_SDK=$HOME/Library/Android/sdk
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$ANDROID_SDK/platform-tools:$PATH
 
+# GCloud
 # The next line enables shell command completion for gcloud.
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 # The next line updates PATH for the Google Cloud SDK.
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
-
-# TODO: Replace the following after ADSF configuration is complete
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-
