@@ -3,7 +3,7 @@
     "editor.fontSize": 15,
     "editor.fontFamily": "Menlo, Inconsolata",
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "GitHub Dark",
+    "workbench.colorTheme": "Dracula",
     "files.autoSave": "onFocusChange",
     "sync.gist": "f3fe72e3d356fa218497f88164f6b668",
     "search.exclude": {

@@ -3,6 +3,8 @@ export PATH=$HOME/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+# Dotfiles repo
+export DOTFILES="$HOME/.dotfiles"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -82,6 +84,15 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH=~/.dotfiles/bin:${PATH}
 
+# Source secrets
+if [[ -a $HOME/.zshrc-secretss ]]
+then
+  source $HOME/.zshrc-secrets
+fi
+
+# Load functions
+for f in $DOTFILES/functions/*; do source $f; done
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -134,5 +145,3 @@ source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.in
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-# Source secrets
-source $HOME/.zshrc-secrets
