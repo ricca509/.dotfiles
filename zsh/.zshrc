@@ -44,6 +44,9 @@ alias sourcezsh="source $HOME/.zshrc"
 # Nodejs
 alias npnuke='rm -rf node_modules && npm install'
 
+# thefuck
+eval $(thefuck --alias)
+
 # Bindings
 bindkey -s ^f "tmux-sessionizer\n"
 bindkey -s ^s "tmux-new-session\n"

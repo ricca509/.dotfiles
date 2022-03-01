@@ -70,5 +70,6 @@
         "**/.project": true,
         "**/.settings": true,
         "**/.factorypath": true
-    }
+    },
+    "workbench.startupEditor": "none"
 }
