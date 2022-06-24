@@ -2,7 +2,6 @@
     "editor.tabSize": 2,
     "editor.fontSize": 15,
     "editor.fontFamily": "Menlo, Inconsolata",
-    "window.zoomLevel": 1,
     "workbench.colorTheme": "Dracula",
     "files.autoSave": "onFocusChange",
     "sync.gist": "f3fe72e3d356fa218497f88164f6b668",
@@ -71,5 +70,19 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": 1,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "typescriptreact": true
+    },
+    "typescript.tsserver.log": "off",
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.referencesCodeLens.enabled": true
 }
