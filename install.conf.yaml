@@ -13,6 +13,8 @@
       
     ~/.asdfrc: asdf/.asdfrc
 
+    ~/.ssh/config: ssh/config
+
     # VSCode
     ~/Library/Application Support/Code/User:
       if: '[ `uname` = Darwin ]'
