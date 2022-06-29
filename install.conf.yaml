@@ -28,3 +28,4 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - [cp precommit-hook .git/hooks/pre-commit, Install precommit hook]

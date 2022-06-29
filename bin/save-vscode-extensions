@@ -1,0 +1,5 @@
+#!/bin/sh
+# https://anhari.dev/blog/saving-vscode-settings-in-your-dotfiles
+
+echo "Saving VSCode extensions..."
+code --list-extensions > "$HOME"/.dotfiles/vscode/extensions.txt
