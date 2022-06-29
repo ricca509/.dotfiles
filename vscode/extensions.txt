@@ -21,9 +21,7 @@ GraphQL.vscode-graphql
 hashicorp.terraform
 Icehunter.TurboJavaScript
 johnpapa.vscode-peacock
-jpoissonnier.vscode-styled-components
 kumar-harsh.graphql-for-vscode
-LaurentTreguier.vscode-simple-icons
 lokalise.i18n-ally
 LuisGalicia.mariana-nord
 marlon407.code-groovy
@@ -46,7 +44,6 @@ redhat.vscode-yaml
 rust-lang.rust
 ryan0x200.kaia-theme-vscode
 shakram02.bash-beautify
-Shan.code-settings-sync
 shinworks.tmplcolorizer
 svelte.svelte-vscode
 syler.sass-indented
