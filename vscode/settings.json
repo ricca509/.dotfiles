@@ -20,7 +20,7 @@
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "explorer.compactFolders": false,
     "path-intellisense.showHiddenFiles": true,
     "javascript.updateImportsOnFileMove.enabled": "never",
