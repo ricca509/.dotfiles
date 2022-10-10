@@ -8,6 +8,7 @@ azemoh.one-monokai
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
+DotJoshJohnson.xml
 dracula-theme.theme-dracula
 dsznajder.es7-react-js-snippets
 eamodio.gitlens
@@ -16,6 +17,8 @@ esbenp.prettier-vscode
 GitHub.copilot
 GitHub.github-vscode-theme
 GraphQL.vscode-graphql
+GraphQL.vscode-graphql-execution
+GraphQL.vscode-graphql-syntax
 hashicorp.terraform
 Icehunter.TurboJavaScript
 johnpapa.vscode-peacock
@@ -23,10 +26,12 @@ kumar-harsh.graphql-for-vscode
 lokalise.i18n-ally
 LuisGalicia.mariana-nord
 mikestead.dotenv
+moshfeu.diff-merge
 ms-azuretools.vscode-docker
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.python
 ms-python.vscode-pylance
+ms-vscode-remote.remote-containers
 ms-vscode.vscode-typescript-tslint-plugin
 ms-vsliveshare.vsliveshare
 naumovs.color-highlight
@@ -36,6 +41,7 @@ redhat.vscode-commons
 redhat.vscode-yaml
 rust-lang.rust
 ryan0x200.kaia-theme-vscode
+sanity-io.vscode-sanity
 shakram02.bash-beautify
 shinworks.tmplcolorizer
 svelte.svelte-vscode
@@ -48,3 +54,4 @@ wix.vscode-import-cost
 xabikos.JavaScriptSnippets
 xabikos.ReactSnippets
 zhuangtongfa.material-theme
+znck.grammarly
