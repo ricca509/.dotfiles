@@ -15,7 +15,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -70,7 +70,6 @@
         "**/.factorypath": true
     },
     "workbench.startupEditor": "none",
-    "window.zoomLevel": 1,
     "editor.inlineSuggest.enabled": true,
     "github.copilot.enable": {
         "*": true,
@@ -84,5 +83,23 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "typescript.referencesCodeLens.enabled": true,
-    "workbench.colorTheme": "GitHub Dark Dimmed"
+    "workbench.colorTheme": "Dracula Soft",
+    "window.zoomLevel": 1,
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
+    },
+    "grammarly.files.include": [
+        "**/readme.md",
+        "**/README.md",
+        "**/*.txt",
+        "**/*.md",
+        "**/*.mdx"
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    }
 }
