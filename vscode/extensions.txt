@@ -20,6 +20,7 @@ Grafana.vscode-jsonnet
 GraphQL.vscode-graphql
 GraphQL.vscode-graphql-execution
 GraphQL.vscode-graphql-syntax
+Gruntfuggly.todo-tree
 hashicorp.terraform
 Icehunter.TurboJavaScript
 johnpapa.vscode-peacock
@@ -59,5 +60,6 @@ wingrunr21.vscode-ruby
 wix.vscode-import-cost
 xabikos.JavaScriptSnippets
 xabikos.ReactSnippets
+xyz.local-history
 zhuangtongfa.material-theme
 znck.grammarly

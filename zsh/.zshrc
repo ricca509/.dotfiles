@@ -19,6 +19,7 @@ plugins=(
   git
   zsh-syntax-highlighting
   zsh-autosuggestions
+  zsh-fzf-history-search
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -41,8 +42,11 @@ alias tmuxa="tmux attach"
 alias tmuxk9="tmux kill-server"
 alias tmuxk="tmux kill-session"
 alias sourcezsh="source $HOME/.zshrc"
+alias gpo="git pull origin $(git_main_branch)"
 # Nodejs
 alias npnuke='rm -rf node_modules && npm install'
+
+setopt HIST_IGNORE_ALL_DUPS
 
 # thefuck
 eval $(thefuck --alias)
