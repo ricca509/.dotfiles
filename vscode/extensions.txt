@@ -1,6 +1,7 @@
 aaron-bond.better-comments
 adpyke.vscode-sql-formatter
 akamud.vscode-theme-onedark
+akamud.vscode-theme-onelight
 alexkrechik.cucumberautocomplete
 AndrewRazumovsky.vscode-styled-jsx-languageserver
 ardenivanov.svelte-intellisense
@@ -15,6 +16,7 @@ eamodio.gitlens
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
 GitHub.copilot
+GitHub.copilot-chat
 GitHub.github-vscode-theme
 Grafana.vscode-jsonnet
 GraphQL.vscode-graphql
@@ -31,6 +33,7 @@ mikestead.dotenv
 moshfeu.diff-merge
 ms-azuretools.vscode-docker
 ms-kubernetes-tools.vscode-kubernetes-tools
+ms-python.debugpy
 ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
@@ -41,7 +44,6 @@ nrwl.angular-console
 octref.vetur
 pflannery.vscode-versionlens
 PKief.material-icon-theme
-rebornix.ruby
 redhat.vscode-commons
 redhat.vscode-yaml
 rust-lang.rust-analyzer
@@ -49,6 +51,7 @@ ryan0x200.kaia-theme-vscode
 sanity-io.vscode-sanity
 shakram02.bash-beautify
 shinworks.tmplcolorizer
+Shopify.ruby-lsp
 svelte.svelte-vscode
 syler.sass-indented
 tinkertrain.theme-panda
@@ -56,10 +59,10 @@ vscjava.vscode-gradle
 vscode-icons-team.vscode-icons
 wayou.vscode-todo-highlight
 whizkydee.material-palenight-theme
-wingrunr21.vscode-ruby
 wix.vscode-import-cost
 xabikos.JavaScriptSnippets
 xabikos.ReactSnippets
 xyz.local-history
 zhuangtongfa.material-theme
 znck.grammarly
+zoxon.monokai-light

@@ -72,4 +72,7 @@ export ANDROID_SDK=$HOME/Library/Android/sdk
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$ANDROID_SDK/platform-tools:$PATH
 
+# Kube
+export USE_GKE_GCLOUD_AUTH_PLUGIN=True
+
 echo -e "\e[0;34m Welcome back, Master \e[0m"

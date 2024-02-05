@@ -83,7 +83,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "typescript.referencesCodeLens.enabled": true,
-    "workbench.colorTheme": "Dracula Soft",
+    "workbench.colorTheme": "Monokai Light Theme",
     "window.zoomLevel": 1,
     "[xml]": {
         "editor.defaultFormatter": "DotJoshJohnson.xml"
@@ -101,5 +101,6 @@
     },
     "[python]": {
         "editor.formatOnType": true
-    }
+    },
+    "nxConsole.showNodeVersionOnStartup": false
 }
